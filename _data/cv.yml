@@ -2,96 +2,94 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Qui Loc Phan
     - name: Date of Birth
-      value: 14th March 1879
+      value: 7th September 2001
     - name: Languages
-      value: English, German
+      value: Vietnamese, English, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Computer Science
+      institution: Dauphine - PSL & Mines Paris - PSL, France
+      year: 2023 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Cutting-edge methods for operations research (Quantum Computing, AI, Digital Twin, etc.)
+    - title: Bachelor of Mathematics
+      institution: Ho Chi Minh University of Education, Vietnam
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
+        - 'Mathematical foundations for computing: Algebra and Combinatorics'
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: R&D Engineer Intern
+      institution: Dassault Systèmes, France
+      year: 2025 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Comprehensive analysis of current quantum challenges in operations research (constraint programming and multi-objective optimization)
+
+    - title: Research Student
+      institution: LAMSADE, Dauphine - PSL, France
+      year: 2025 
       description:
-        - Description 1.
-        - Description 2.
+        - 'Research Project 1 (5 ECTS): Explainable AI with multi-criteria decision analysis'
+        - 'Research Project 2 (5 ECTS): Graph-based energy models for computer vision'
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Research Intern 
+      institution: UMA, ENSTA Paris - IPParis, France
+      year: 2024 
       description:
+        - Optimize quantum resources for encoding Hamiltonian in quantum computing with multi-objective
+    
+    - title: Research Student
+      institution: QUACS, INRIA Saclay, France
+      year: 2024 
+      description:
+        - "Research Project (5 ECTS): Quantum Markov process for decision-making problems"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Scholar
+      institution: Institute of Mathematics - Vietnam Academy of Science and Technology, Vietnam
+      year: 2023 
+      description:
+        - Study statistical optimization and applications in Structural Equation Modeling
+        
+    - title: Research Scholar
+      institution: Algebra Group of Research, Ho Chi Minh University of Education, Vietnam
+      year: 2022, 2023
+      description:
+        - Design or develop, and evaluate algebraic algorithms to address combinatorial problems 
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Efficient encoding Hamiltonian into gate-based quantum computers
+      year: 2024
+      description: Library provides encoding Hamiltonian into gate-based quantum computers with minimal CNOT gates
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Excellence Scholarship from <a href="https://www.ens.psl.eu/en">ENS Paris</a> 
+    - year: 2023
       items:
-        - Max Planck Medal
+        - Excellence Scholarship from <a href="https://ens-paris-saclay.fr/en">ENS Paris-Saclay</a>
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Quantum Computing for Operations Research
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Let help quantum computers make more reliable decisions
+    - title: Machine Learning for Operations Research
       items:
-        - Description 1.
-        - Description 2.
+        - Let's use neural networks to enhance the decisions
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - games, games, and games
