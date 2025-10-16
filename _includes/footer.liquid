@@ -1,16 +1,20 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
-      {% if site.impressum_path %}
-        <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
       {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-      {% endif %}
+        Last updated: <span id="last-updated" style="color: inherit;"></span>.
+        <script>
+          const lastUpdatedDate = new Date();
+          lastUpdatedDate.setMonth(8);
+          lastUpdatedDate.setFullYear(2025);
+          const options = { year: 'numeric', month: 'long' };
+          document.getElementById("last-updated").textContent = lastUpdatedDate.toLocaleDateString('en-US', options);
+        </script>
+        {% endif %}
+        {{ site.footer_text }}
+        {% if site.impressum_path %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
+        {% endif %}
     </div>
   </footer>
 {% else %}
@@ -20,15 +24,19 @@
     {% endif %}
 
     <div class="container">
-      &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
+      {% if site.last_updated %}
+        Last updated: <span id="last-updated" style="color: inherit;"></span>.
+        <script>
+          const lastUpdatedDate = new Date();
+          lastUpdatedDate.setMonth(8);
+          lastUpdatedDate.setFullYear(2025);
+          const options = { year: 'numeric', month: 'long' };
+          document.getElementById("last-updated").textContent = lastUpdatedDate.toLocaleDateString('en-US', options);
+        </script>
+      {% endif %}
+      {{ site.footer_text }}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-      {% endif %}
-      {% if site.last_updated %}
-        Last updated: {{ 'now' | date: '%B %d, %Y' }}.
       {% endif %}
     </div>
   </footer>
