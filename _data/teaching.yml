@@ -1,0 +1,47 @@
+- title: Summer School
+  type: time_table
+  contents:
+    - title: Modern Trends in Discrete Optimization
+      location: Lausanne, Switzerland
+      year: 2025
+      description: 
+        - Digital Twin in Supply Chain Management
+    - title: European Quantum Technology Summer School
+      location: Strasbourg, France 
+      year: 2024
+      description: 
+        - Quantum Operations Research and Quantum Machine Learning
+    - title: Summer School on Computer Algebra
+      location: Hue, Vietnam
+      year: 2023
+      description:
+        - Algebraic Algorithms and Combinatorial Problems
+    - title: Summer School on Data Science
+      location: Can Tho, Vietnam
+      year: 2022
+      description: 
+        - Mathematical foundations of AI
+
+- title: Conference
+  type: time_table
+  contents:
+    - title: " Artificial Intelligence for Logistics and Network Optimization"
+      location: Delft, Netherlands
+      year: 2025
+      description: 
+        - How AI is revolutionizing transportation systems
+    - title: "AI Action Summit: AI, Science & Society"
+      location: Paris, France 
+      year: 2025
+      description: 
+        - Transformative impacts of AI on both science and society
+    - title: The 9th edition of the Statistics & Computer Science Day for Data Science
+      location: Paris, France 
+      year: 2024
+      description: 
+        - Trends and innovations in Data Science and AI
+    - title: The 10th Heidelberg Laureate Forum
+      location: Heidelberg, Germany
+      year: 2023
+      description: 
+        - Lectures and discussions with exceptional mathematicians and computer scientists
