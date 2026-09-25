@@ -3,12 +3,12 @@
     <li class="list-group-item">
       <div class="row">
         {% if content.year %}
-          <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
+          <div class="col-xs-2 cl-sm-2 col-md-2" style="width: 90px">
             <table class="table-cv">
               <tbody>
                 <tr>
                   <td>
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 90px">
                       {{- content.year -}}
                     </span>
                   </td>
@@ -20,6 +20,22 @@
                         <i class="fa-solid fa-location-dot iconlocation"></i>
                         {{ content.location }}
                       </p>
+                    </td>
+                  </tr>
+                {% endif %}
+                {% if content.image %}
+                  <tr>
+                    <td style="text-align: center;">
+                    <div style="width: 110px; margin-left: -10px; text-align: center;">
+                      {% assign entry_path = content.image | prepend: '/assets/img/' %}
+                      {%
+                        include figure.liquid
+                        loading="eager"
+                        path=entry_path
+                        class="preview"
+                        alt=content.image
+                      %}
+                    </div>
                     </td>
                   </tr>
                 {% endif %}

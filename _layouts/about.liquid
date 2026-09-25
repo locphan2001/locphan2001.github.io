@@ -43,9 +43,14 @@ layout: default
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
       </h2>
       {% include news.liquid limit=true %}
+
+    <!-- Logo -->
+      <div style="display: flex; justify-content: center; margin-top: 2em;">
+          <img src="{{ '/assets/img/PSL.png' | relative_url }}" alt="Logo" style="max-width: 100%; height: auto; max-height: 180px;">
+      </div>
     {% endif %}
 
     <!-- Latest posts -->
@@ -56,6 +61,7 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    {% comment %}
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -63,12 +69,12 @@ layout: default
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
+    {% endcomment %}
 
     <!-- Social -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
