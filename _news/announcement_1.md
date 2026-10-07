@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-06-01 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I get my bachelor from <a href='https://hcmue.edu.vn/en/'>Ho Chi Minh University of Education</a> with "Valedictorian" achievement
